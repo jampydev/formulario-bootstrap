@@ -1,0 +1,56 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6d6d6d;
+    height: 90vh;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+.custom-close {
+    background-color: #ff0000 !important; /* Rojo fuerte */
+    border-radius: 50%; /* Hace que tenga forma redonda */
+    padding: 8px; /* Aumenta el área de clic sin hacerla más grande */
+    opacity: 1; /* Hace que el rojo se vea más fuerte */
+}
+
+/* Cambia el color cuando el mouse pasa sobre la "X" */
+.custom-close:hover {
+    background-color: #cc0000 !important; /* Un rojo más oscuro al pasar el mouse */
+}
